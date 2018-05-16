@@ -30,7 +30,7 @@ public class MainFrame extends DefaultMainFrame {
 
         Document doc = getHtmlDocument();
         jEditorPane.setText(doc.body().toString());
-
+        jEditorPane.setCaretPosition(0);
     }
 
     public Document getHtmlDocument() {
