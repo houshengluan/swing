@@ -1,0 +1,34 @@
+\documentclass{beamer}
+%\usepackage{ctex}
+\usetheme{Warsaw}
+%\usetheme{metropolis}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\theoremstyle{definition}
+\newtheorem{myDef}{Definition}
+
+%show page number
+%\expandafter\def\expandafter\insertshorttitle\expandafter{%
+%\insertshorttitle\hfill%
+%\insertframenumber\,/\,\inserttotalframenumber}
+
+%full screen when open
+%\hypersetup{pdfpagemode=FullScreen}
+
+
+\begin{document}
+\title{Massive \\ and}
+\author{}
+\institute{}
+\date{\today}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Outline}
+\begin{enumerate}
+\item Introduction \label{intro}
+
+\end{enumerate}
+\end{frame}
+\end{document}
